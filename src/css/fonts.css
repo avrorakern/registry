@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Montserrat-Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url("C:/Users/Avror_000/Desktop/progi/skillfactory/Bookshop/src/fonts/Montserrat-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Montserrat-Medium";
+    font-style: normal;
+    font-weight: 500;
+    src: url("C:/Users/Avror_000/Desktop/progi/skillfactory/Bookshop/src/fonts/Montserrat-Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "OpenSans-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("C:/Users/Avror_000/Desktop/progi/skillfactory/Bookshop/src/fonts/OpenSans-Regular.woff2") format("woff2");
+}

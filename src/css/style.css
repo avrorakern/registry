@@ -1,0 +1,259 @@
+@import './fonts.css';
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    margin: 0;
+    position: relative;
+    background: #eceef0;
+    z-index: 1;
+}
+
+.nav {
+    min-width: 100%;
+    display: flex;
+    padding: 47px 120px 20px 166px;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+    width: 1440px;
+    z-index: 1;
+    border-bottom: 2px #8e969f solid;
+    background: #cccdce;
+}
+
+.nav__img {
+    width: 50px;
+    height: 50px;
+}
+
+.nav__logo {
+    margin: 0;
+    color: #1C2A39;
+    font-family: 'Montserrat-Bold';
+    font-size: 24px;
+    line-height: normal;
+}
+
+.nav__links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding-right: 9px;
+}
+
+.nav__link {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    font-family: 'Montserrat-Bold';
+    font-size: 14px;
+    color: #5C6A79;
+}
+
+.main__bcg_img1 {
+    position: absolute;
+    top: 200px;
+    left: 1200px;
+    z-index: -1;
+}
+
+.main__bcg_img2 {
+    position: absolute;
+    top: 700px;
+    left: -300px;
+    z-index: -1;
+}
+
+.main__cap {
+    margin: 0;
+    padding-top: 20px;
+    padding-right: 250px;
+    text-align: center;
+    color: #1C2A39;
+    font-family: 'Montserrat-Bold';
+    font-size: 24px;
+    line-height: normal;
+}
+
+.main__links {
+    margin: 0;
+    padding: 50px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.main__item {
+    border: 2px #8e969f solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.main__link {
+    margin: 0;
+    padding: 20px;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    font-family: 'Montserrat-Bold';
+    font-size: 20px;
+    color: #5C6A79;
+}
+
+.main__data {
+    display: flex;
+    gap: 200px;
+    padding: 50px;
+    padding-left: 230px;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.input__par {
+    margin: 0;
+    font-family: 'Montserrat-Bold';
+    font-size: 20px;
+    color: #5C6A79;
+}
+
+.main__input {
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 0;
+    font-family: 'Montserrat-Bold';
+    font-size: 20px;
+    color: #1C2A39;
+    padding: 10px;
+}
+
+.main__btn {
+    cursor: pointer;
+    border-radius: 5px;
+    width: 300px;
+    margin: 0;
+    font-family: 'Montserrat-Bold';
+    font-size: 20px;
+    color: #5C6A79;
+    padding: 10px;
+}
+
+.calendar {
+    width: 700px;
+    margin: 20px 0 0 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.month {
+    font-size: 20px;
+    font-family: 'Montserrat-Bold';
+    margin-bottom: 10px;
+}
+
+.days {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0f0f0;
+}
+
+.day {
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    font-family: 'Montserrat-Bold';
+}
+
+.dates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.dates div {
+    padding: 5px;
+}
+
+.dates div:nth-child(odd) {
+    background-color: #f8f8f8;
+}
+
+.dates div:nth-child(5) {
+    background-color: #82d09f;
+}
+.dates div:nth-child(11) {
+    background-color: #82d09f;
+}
+.dates div:nth-child(12) {
+    background-color: #82d09f;
+}
+.dates div:nth-child(15) {
+    background-color: #82d09f;
+}
+.dates div:nth-child(18) {
+    background-color: #82d09f;
+}
+.dates div:nth-child(19) {
+    background-color: #82d09f;
+}
+.dates div:nth-child(23) {
+    background-color: #82d09f;
+}
+.dates div:nth-child(24) {
+    background-color: #82d09f;
+}
+.dates div:nth-child(29) {
+    background-color: #82d09f;
+}
+.dates div:nth-child(30) {
+    background-color: #82d09f;
+}
+
+.dates div:hover {
+    background-color: #f0f0f0;
+}
+
+.calendar__wrapper {
+    display: flex;
+    justify-content: start;
+    gap: 50px;
+}
+
+.talon__day {
+    margin: 20px 0 20px 0;
+    font-family: 'Montserrat-Bold';
+    font-size: 20px;
+}
+
+.talon__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
